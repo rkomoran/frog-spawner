@@ -1,0 +1,25 @@
+body {
+    background: #ffffff url(https://cdn.wallpapersafari.com/87/38/EmRy8B.png);
+    background-size:cover;
+    display: flex;
+    /*
+    justify-content: center;
+    align-items: center;
+    */
+    height: 100vh;
+}
+#container {
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+    /*border: 1px solid #000;*/
+  }
+
+  .frog {
+    width: 100px;
+    height: 100px;
+    background-image: url('frog.png');
+    background-size: cover;
+    position: absolute;
+  }
+  
